@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    name: mybatisflyway #DB name
+    url: jdbc:postgresql://localhost:5432/mybatisflyway?autoreconnect=true
+    username: postgres
+    password: admin
+
+mybatis:
+  config-location: classpath:mybatis-config.xml
+  type-handlers-package: dev.ghass.mybatisflyway.handlers
